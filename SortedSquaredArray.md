@@ -88,3 +88,7 @@ where n = length of input array
 
 ## Patterns
 - Pointers
+
+### Further Question
+- Big O .splice()
+- .fill()
