@@ -4,16 +4,16 @@
 ## Examples
 
 Input:
-'array = [1, 2, 3, 4, 5]'
+[1, 2, 3, 4, 5]
 Output:
-'[1, 4, 9, 16, 25]'
+[1, 4, 9, 16, 25]
 
 Input:
-'array = [-1, 0, 1, 2, 3]'
+[-1, 0, 1, 2, 3]
 Output:
-'[0, 1, 1, 4, 9]'
+[0, 1, 1, 4, 9]
 
-# Clarifying Questions/Points
+## Clarifying Questions/Points
 - Is the input sorted? :heavy_check_mark:
 - Should the output be sorted :heavy_check_mark:
 - Could the input array include negative integers?
@@ -46,13 +46,13 @@ Output:
 - by default integers will be sorted based on the first digit (25 will be placed before 4)
 
 Input:
-'[-5, -4, -3, -2, -1]'
+[-5, -4, -3, -2, -1]
 
 Unsorted Output:
-'[25, 16, 9, 4, 1]'
+[25, 16, 9, 4, 1]
 
 Output sorted with .sort():
-'[1, 16, 25, 4, 9]'
+[1, 16, 25, 4, 9]
 
 - A callback function can be added to ensure the integers are sorted in ascending order
 
@@ -89,6 +89,6 @@ where n = length of input array
 ## Patterns
 - Pointers
 
-### Further Question
+## Further Questions
 - Big O .splice()
 - .fill()
